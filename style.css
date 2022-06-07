@@ -1,0 +1,15 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  color: rgb(66, 66, 66);
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
