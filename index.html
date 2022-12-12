@@ -5,28 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/icon.png">
     <link rel="stylesheet" href="./style.css">
     <title>CV#2. HTML, CSS &amp; Git Basics</title>
 </head>
 
 <body>
-    <img src="./img/image.jpg" alt="User photo">
-    <h1>Галия Самарская</h1>
-    <h2>Contact information:</h2>
-    <ul>
-        <li>Discord: galiya(@GaliyaZ)</li>
-        <li>E-mail: gexample@gmail.com</li>
-    </ul>
-    <h2>About myself:</h2>
-    <p>I want to learn Front-End Development.</p>
-    <h2>Skills:</h2>
-    <ul>
-        <li>HTML5, CSS3</li>
-        <li>JavaScript Basics</li>
-        <li>Git</li>
-        <li>React</li>
-        <li>Adobe Photoshop, Figma</li>
-    </ul>
+    <header class="container">
+        <div class="header__wrapper">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">Home</li>
+                    <li class="navigation__item">Contact</li>
+                    <li class="navigation__item">About</li>
+                    <li class="navigation__item">Skills</li>
+                    <li class="navigation__item">Example</li>
+                    <li class="navigation__item">Projects</li>
+                </ul>
+            </nav>
+            <h1>
+                Junuior Front-End Developer Resume
+            </h1>
+            <img class="header__image" src="./img/image.jpg" alt="User photo">
+            <h2>Galiya Samarskaya</h2>
+        </div>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Contact information</h2>
+            <ul>
+                <li>Discord: galiya(@GaliyaZ)</li>
+                <li>E-mail: gexample@gmail.com</li>
+            </ul>
+        </section>
+        <section>
+            <h2>About myself</h2>
+            <p>Hello! I'am junior front-end developer and learn this course to improve skills.</p>
+        </section>
+        <section>
+            <h2>Hard skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>5CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>TypeScript Basics</li>
+                <li>Git</li>
+                <li>React</li>
+                <li>Adobe Photoshop</li>
+                <li>Figma</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Code example</h2>
+            <code>
+                <pre>
+function solution (str, ending) {<br>
+    return str.substring(str.length - ending.length) == ending;<br>
+}</pre>
+            </code>
+        </section>
+        <section>
+            <h2>Code example</h2>
+            <ul>
+                <li>
+                    <a href="https://galiyaz.github.io/js_tasks/quiz/">
+                        Quiz
+                    </a>
+                </li>
+                <li>
+                    <a href="https://galiyaz.github.io/js_tasks/infinite-scroll/">
+                        Infinite scroll
+                    </a>
+                </li>
+                <li>
+                    <a href="https://galiyaz.github.io/js_tasks/joke-teller/">
+                        Joke-teller
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="container">
+        <div>
+            <p>&copy; 2022 by Galiya Samarskaya</p>
+        </div>
+        <ul>
+            <li>
+                <a href="https://github.com/GaliyaZ/">
+                    Git
+                </a>
+            </li>
+            <li>
+                <a href="https://rs.school/js-stage0/">
+                    <img src="./img/logo-rsschool3.png" alt="rs school logo">
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>
