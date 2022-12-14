@@ -11,16 +11,28 @@
 </head>
 
 <body>
-    <header class="container">
+    <header class="container" id="home">
         <div class="header__wrapper">
             <nav class="navigation">
                 <ul class="navigation__list">
-                    <li class="navigation__item">Home</li>
-                    <li class="navigation__item">Contact</li>
-                    <li class="navigation__item">About</li>
-                    <li class="navigation__item">Skills</li>
-                    <li class="navigation__item">Example</li>
-                    <li class="navigation__item">Projects</li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#home">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#contacts">Contact</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#about">About</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#skills">Skills</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#examples">Example</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#projects">Projects</a>
+                    </li>
                 </ul>
             </nav>
             <div class="header__info">
@@ -33,18 +45,19 @@
         </div>
     </header>
     <main class="container">
-        <section>
+        <section id="contacts">
             <h2>Contact information</h2>
             <ul>
                 <li>Discord: galiya(@GaliyaZ)</li>
+                <li>Telegram: <span>@</span>gsamarskaya</li>
                 <li>E-mail: gexample@gmail.com</li>
             </ul>
         </section>
-        <section>
+        <section id="about">
             <h2>About myself</h2>
             <p>Hello! I'am junior front-end developer and learn this course to improve skills.</p>
         </section>
-        <section>
+        <section id="skills">
             <h2>Hard skills</h2>
             <ul>
                 <li>HTML</li>
@@ -57,17 +70,17 @@
                 <li>Figma</li>
             </ul>
         </section>
-        <section>
+        <section id="examples">
             <h2>Code example</h2>
-            <pre>
-                <code>
+            <pre class="expample__wrapper">
+                <code class="expample__code">
 function solution (str, ending) {<br>
     return str.substring(str.length - ending.length) == ending;<br>
 }
                 </code>
             </pre>
         </section>
-        <section>
+        <section id="projects">
             <h2>Projects</h2>
             <ul>
                 <li>

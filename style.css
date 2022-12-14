@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     color: #1a2b3b;
-    background-color: #f3f3f3;
+    background-color: #f7f7f7;
+    font-size: 1em;
 }
 
 img {
@@ -36,6 +37,21 @@ img {
 
 .navigation__item {
     padding: 0 0 0 20px;
+}
+
+.navigation__link {
+    color: #1a2b3b;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    opacity: 0.8;
+}
+
+.expample__wrapper {
+    background-color: #ffffFf;
+    padding: 20px;
+    font-weight: 500;
 }
 
 .footer {
