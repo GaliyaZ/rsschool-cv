@@ -14,7 +14,7 @@
     <header class="container" id="home">
         <div class="header__wrapper">
             <nav class="navigation">
-                <ul class="navigation__list">
+                <ul class="navigation__list navigation__list_closed">
                     <li class="navigation__item">
                         <a class="navigation__link" href="#home">Home</a>
                     </li>
@@ -34,12 +34,15 @@
                         <a class="navigation__link" href="#projects">Projects</a>
                     </li>
                 </ul>
+                <button class="navigation__button navigation__button_closed" type="button">Menu</button>
             </nav>
             <div class="header__info">
                 <h1 class="header">
                     Junuior Front-End Developer Resume
                 </h1>
-                <img class="header__image" src="./img/image.jpg" alt="User photo">
+                <div class="header__image-wrapper" >
+                    <img class="header__image" src="./img/image.jpg" alt="User photo">
+                </div>
                 <span  class="header__name">Galiya Samarskaya</span>
             </div>
         </div>
@@ -60,14 +63,14 @@
         <section id="skills">
             <h2>Hard skills</h2>
             <ul>
-                <li>HTML</li>
-                <li>5CSS3</li>
-                <li>JavaScript Basics</li>
-                <li>TypeScript Basics</li>
-                <li>Git</li>
-                <li>React</li>
-                <li>Adobe Photoshop</li>
-                <li>Figma</li>
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">5CSS3</li>
+                <li class="skills__item">JavaScript Basics</li>
+                <li class="skills__item">TypeScript Basics</li>
+                <li class="skills__item">Git</li>
+                <li class="skills__item">React</li>
+                <li class="skills__item">Adobe Photoshop</li>
+                <li class="skills__item">Figma</li>
             </ul>
         </section>
         <section id="examples">
@@ -82,19 +85,19 @@ function solution (str, ending) {<br>
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <ul>
-                <li>
-                    <a href="https://galiyaz.github.io/js_tasks/quiz/">
+            <ul class="projects__list">
+                <li class="projects__item">
+                    <a class="projects__link" href="https://galiyaz.github.io/js_tasks/quiz/">
                         Quiz
                     </a>
                 </li>
-                <li>
-                    <a href="https://galiyaz.github.io/js_tasks/infinite-scroll/">
+                <li class="projects__item">
+                    <a class="projects__link" href="https://galiyaz.github.io/js_tasks/infinite-scroll/">
                         Infinite scroll
                     </a>
                 </li>
-                <li>
-                    <a href="https://galiyaz.github.io/js_tasks/joke-teller/">
+                <li class="projects__item">
+                    <a class="projects__link" href="https://galiyaz.github.io/js_tasks/joke-teller/">
                         Joke-teller
                     </a>
                 </li>
@@ -264,8 +267,7 @@ function solution (str, ending) {<br>
             </ul>
         </footer>
     </div>
-
-
+<script src="./js/main.js"></script>
 </body>
 
 </html>
