@@ -15,8 +15,8 @@ I want to learn Front-End Development.
 
 ## Code example:
 ```javascript
-function solution(str, ending){
-  return str.substring(str.length - ending.length) == ending;
+function solution(a, b){
+  return a*b;
 }
 ```
 ## Work experience:
